@@ -29,7 +29,7 @@ module.exports = {
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+    mongoUrl: process.env.MongoDB || "https://cloud.mongodb.com/v2/6758b5ef8eccdb2f8b1a98c6#/overview",
     sessionId: process.env.SESSION_ID | "RUSReE_A_N_Y_A_V_2_hndxt28U03sBKy",
 
     /**
