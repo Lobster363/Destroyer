@@ -10,15 +10,15 @@ module.exports = {
      */
     botname: process.env.BotName || "Dark Envey",
     footer: process.env.Footer || "Dark envey by Michael",
-    prefa: process.env.Prefix || ";",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "💀",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
+    ownername: process.env.Owner_Name || "Michael",
     ownernumber: process.env.Owner_Number || "0602129390",
-    instagramId: process.env.Insta || "3.69_pika",
+    instagramId: process.env.Insta || "Michael",
 
     /**
      * other details and parameters
@@ -30,7 +30,7 @@ module.exports = {
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "ztQ_A_N_Y_A_V_2_z8Lj1SYX5Q09J4cCg",
+    sessionId: process.env.SESSION_ID | "RUSReE_A_N_Y_A_V_2_hndxt28U03sBKy",
 
     /**
      * thumbnails and medias
